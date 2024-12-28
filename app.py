@@ -17,18 +17,14 @@ from gpt import response
 import time
 import requests
 
-
 app = Flask(__name__)
-
-# Load dataset
 dataset = pd.read_csv("final_combined.csv")
 dataset['attributes'] = dataset[['Gender', 'Category', 'SubCategory', 'ProductType', 'Colour', 'Usage']].apply(
     lambda x: ' '.join(x.dropna().astype(str)).lower(), axis=1)
 
-
 def call_stable_diffusion_api(prompt):
     API_URL = "https://api-inference.huggingface.co/models/black-forest-labs/FLUX.1-dev"
-    headers = {"Authorization": "Bearer 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  "}
+    headers = {"Authorization": "YOUR_HUGGING_FACE_API"}
 
     payload = {
         "inputs": prompt,
@@ -38,9 +34,7 @@ def call_stable_diffusion_api(prompt):
         },
         "options": {"wait_for_model": True}
     }
-
     response = requests.post(API_URL, headers=headers, json=payload)
-
     if response.status_code == 200:
         return response.content
     else:
@@ -49,9 +43,7 @@ def call_stable_diffusion_api(prompt):
 
 def call_magic_prompt_api(user_prompt, retries=5, delay=5):
     api_url = "https://api-inference.huggingface.co/models/Gustavosta/MagicPrompt-Stable-Diffusion"
-    headers = {
-        "Authorization": "Bearer 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"  # Replace with your Hugging Face API key
-    }
+    headers = {"Authorization": "YOUR_HUGGING_FACE_API" }
     payload = {"inputs": user_prompt}
 
     for attempt in range(retries):
@@ -59,13 +51,13 @@ def call_magic_prompt_api(user_prompt, retries=5, delay=5):
 
         if response.status_code == 200:
             result = response.json()
-            return result[0]['generated_text']  # Adjust based on response structure
+            return result[0]['generated_text']  
         elif response.status_code == 503:
             error_info = response.json()
             estimated_time = error_info.get("estimated_time", delay)
             print(f"Attempt {attempt+1}: Model busy, retrying in {estimated_time} seconds.")
             time.sleep(estimated_time)
-            delay *= 2  # Progressive backoff
+            delay *= 2  
         else:
             print(f"Error: {response.status_code} - {response.text}")
             return None
@@ -158,10 +150,8 @@ def index():
         
         elif action == 'feed_img_sd':
             try:
-                # Call the stable_diffusion function from image_processing.py
                 poster = stable_diffusion(user_prompt)
                 if poster:
-                    # Convert PIL Image to bytes
                     buffered = io.BytesIO()
                     poster.save(buffered, format="PNG")
                     generated_poster_image = base64.b64encode(buffered.getvalue()).decode('utf-8')
@@ -174,7 +164,6 @@ def index():
                 error = "An unexpected error occurred while generating the poster."
                 print(f"Error in 'feed_img_sd' action: {e}")
         elif action == 'generate_slogan':
-            # Generate slogan using the slogan generation module
             slogans_data = generate_slogan_final(user_prompt)
             highlighted_button = 'generate_slogan'
     return render_template('index.html', 
@@ -203,17 +192,12 @@ def generate_slogan_poster():
     slogan = request.form.get('slogan')
     prompt = request.form.get('prompt')
 
-    #enhanced_prompt = call_magic_prompt_api(prompt)
-    #print(f"Generating enhanced prompt: {enhanced_prompt}")
     generated_image = call_stable_diffusion_api(prompt) 
-    generated_image = Image.open(io.BytesIO(generated_image))  # Convert the generated image to PIL format if needed
+    generated_image = Image.open(io.BytesIO(generated_image))  
 
-    font_path = "Roboto-BlackItalic.ttf"  # Specify the actual path to the font you wish to use
-
-    # Adding slogan to the poster
+    font_path = "Roboto-BlackItalic.ttf" 
     image_with_slogan = generate_image_with_slogan(generated_image, slogan, font_path)
 
-    # Return the image with the slogan
     if image_with_slogan:
         return send_file(image_with_slogan, mimetype='image/png')
     else:
