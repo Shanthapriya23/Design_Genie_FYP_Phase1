@@ -6,7 +6,7 @@ from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
 
-API_KEY = "AIzaSyD96PJQN2yCDlHkdnDn4xG1Hb85JMRaJrQ"
+API_KEY = "YOUR GEMINI API KEY"
 
 genai.configure(api_key=API_KEY)
 
