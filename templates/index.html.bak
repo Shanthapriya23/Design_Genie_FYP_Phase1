@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Search</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        form { margin-bottom: 20px; }
+        input[type="text"] { width: 300px; padding: 5px; }
+        button { padding: 5px 10px; }
+        img { max-width: 200px; }
+    </style>
+</head>
+<body>
+    <h1>Find Your Product</h1>
+    <form method="POST" action="/search">
+        <label for="prompt">Describe the product:</label>
+        <input type="text" id="prompt" name="prompt" required>
+        <button type="submit">Search</button>
+    </form>
+
+    {% if images %}
+    <h2>Relevant Images:</h2>
+    <ul>
+        {% for image in images %}
+        <li>
+            <strong>{{ image.title }}</strong><br>
+            <img src="{{ image.image_url }}" alt="{{ image.title }}"><br>
+        </li>
+        {% endfor %}
+    </ul>
+    {% else %}
+    <p>No relevant images found.</p>
+    {% endif %}
+</body>
+</html>

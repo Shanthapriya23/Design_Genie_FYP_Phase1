@@ -1,0 +1,10 @@
+{"time":"2024-11-06T20:48:48.548077+05:30","level":"INFO","msg":"started logging, with flags","port-filename":"C:\\Users\\PRIYA\\AppData\\Local\\Temp\\tmpftwlsf_w\\port-21748.txt","pid":21748,"debug":false,"disable-analytics":false}
+{"time":"2024-11-06T20:48:48.548077+05:30","level":"INFO","msg":"FeatureState","shutdownOnParentExitEnabled":false}
+{"time":"2024-11-06T20:48:48.5500773+05:30","level":"INFO","msg":"server is running","addr":{"IP":"127.0.0.1","Port":64752,"Zone":""}}
+{"time":"2024-11-06T20:48:48.5500773+05:30","level":"INFO","msg":"Will exit if parent process dies.","ppid":21748}
+{"time":"2024-11-06T20:48:48.7299674+05:30","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"127.0.0.1:64753"}
+{"time":"2024-11-06T20:48:50.4902339+05:30","level":"INFO","msg":"handleInformInit: received","streamId":"ibfiptav","id":"127.0.0.1:64753"}
+{"time":"2024-11-06T20:48:51.7640809+05:30","level":"INFO","msg":"handleInformInit: stream started","streamId":"ibfiptav","id":"127.0.0.1:64753"}
+{"time":"2024-11-06T20:49:26.2552367+05:30","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"127.0.0.1:64790"}
+{"time":"2024-11-06T20:49:27.8062347+05:30","level":"INFO","msg":"handleInformInit: received","streamId":"c5sv9q6q","id":"127.0.0.1:64790"}
+{"time":"2024-11-06T20:49:28.2324493+05:30","level":"INFO","msg":"handleInformInit: stream started","streamId":"c5sv9q6q","id":"127.0.0.1:64790"}

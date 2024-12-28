@@ -1,0 +1,39 @@
+{
+  "os": "Windows-10-10.0.19045-SP0",
+  "python": "3.11.9",
+  "startedAt": "2024-11-07T03:06:06.985030Z",
+  "program": "E:\\FYP_review2_ref\\FYP_review2\\project_root\\app.py",
+  "codePath": "app.py",
+  "email": "mshanthapriya@gmail.com",
+  "root": "E:\\FYP_review2_ref\\FYP_review2\\project_root",
+  "host": "Shanthapriya-dell",
+  "username": "PRIYA",
+  "executable": "D:\\Python311\\python.exe",
+  "codePathLocal": "app.py",
+  "cpu_count": 4,
+  "cpu_count_logical": 8,
+  "gpu": "NVIDIA GeForce MX350",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "157285347328",
+      "used": "35691360256"
+    }
+  },
+  "memory": {
+    "total": "16889192448"
+  },
+  "cpu": {
+    "count": 4,
+    "countLogical": 8
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce MX350",
+      "memoryTotal": "2147483648",
+      "cudaCores": 640,
+      "architecture": "Pascal"
+    }
+  ],
+  "cudaVersion": "12.5"
+}

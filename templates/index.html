@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Genie</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Raleway', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #e0eafc, #cfdef3);
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+            margin: 30px 0;
+            color: #007bff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+            font-size: 2.5rem;
+        }
+        form {
+            text-align: center;
+            margin: 20px;
+        }
+        label {
+            display: block;
+            margin: 15px auto 5px;
+            font-weight: 700;
+            font-size: 1.2rem;
+        }
+        input[type="text"] {
+            padding: 12px;
+            width: 70%;
+            max-width: 600px;
+            margin-bottom: 15px;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+        input[type="text"]:focus {
+            border-color: #007bff;
+            outline: none;
+            box-shadow: 0 0 10px rgba(0, 123, 255, 0.3);
+        }
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            border: none;
+            border-radius: 25px;
+            background: linear-gradient(135deg, #007bff, #0056b3);
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+        }
+        button.btn-visited {
+            background: linear-gradient(135deg, #28a745, #218838);
+        }
+        .images-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin: 20px;
+        }
+        .image-box {
+            flex: 1;
+            max-width: 500px;
+            padding: 15px;
+            margin: 10px;
+            background: #fff;
+            border-radius: 15px;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .image-box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+        .image-box img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .image-box h2 {
+            text-align: center;
+            font-size: 18px;
+            margin-top: 10px;
+            color: #333;
+        }
+        .no-images {
+            text-align: center;
+            margin: 20px;
+            font-size: 20px;
+            color: #555;
+            animation: fadeIn 1s;
+        }
+        @media (max-width: 768px) {
+            .image-box {
+                max-width: 100%;
+            }
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        header {
+        padding: 20px 30px;
+        }
+
+        .header-content {
+        display: flex;
+        align-items: center; 
+        }
+
+        .header-content img {
+        margin-right: 45px; 
+        }
+
+        h1 {
+        font-size: 30px;
+        align-items: center; 
+        color : #000058;
+        font-weight: bold;
+        }
+
+    </style>
+    <script>
+        function setButtonVisited(buttonValue) {
+            // Remove 'btn-visited' class from all buttons
+            document.querySelectorAll('button').forEach(btn => btn.classList.remove('btn-visited'));
+            // Add 'btn-visited' class to the clicked button
+            document.querySelector(button[value="${buttonValue}"]).classList.add('btn-visited');
+        }
+
+        function showNoImages() {
+            document.querySelector('.no-images').style.display = 'block';
+        }
+
+        function hideNoImages() {
+            document.querySelector('.no-images').style.display = 'none';
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const noImages = document.querySelector('.no-images');
+            const imagesContainer = document.querySelector('.images-container');
+            
+            if (!imagesContainer.querySelector('.image-box')) {
+                showNoImages();
+            } else {
+                hideNoImages();
+            }
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+          <img src="https://media.istockphoto.com/id/1908252957/vector/genie-symbol-design-vector-template.jpg?s=612x612&w=0&k=20&c=Ue1G3OB9Y_OB2axPV0Ik_gmkM2eWYu0XKESBc1M10bI=" 
+               width="8%" 
+               height="8%" 
+               alt="Logo">
+          <h1>Design Genie - Automatic Poster Generation Tool</h1>
+        </div>
+      </header>
+    <form method="POST">
+        <label for="prompt">Enter the Prompt describing the Event for which you want to generate the poster:</label>
+        <input type="text" id="prompt" name="prompt" required>
+        <br>
+        <button type="submit" name="action" value="enhanced_prompt" onclick="setButtonVisited('enhanced_prompt')">Enhance Prompt with NLP</button>
+        <button type="submit" name="action" value="magic_prompt" onclick="setButtonVisited('magic_prompt')">Enhance Prompt with Magic prompt API</button>
+        <button type="submit" name="action" value="generate_normal_img" onclick="setButtonVisited('generate_normal_img')">Generate Image for User Given Prompt</button>
+        <button type="submit" name="action" value="generate_enhanced_img" onclick="setButtonVisited('generate_enhanced_img')">Generate Image for Enhanced Prompt with NLP alone</button>
+        <button type="submit" name="action" value="generate_magic_prompt_img" onclick="setButtonVisited('generate_magic_prompt_img')">Generate Image for Prompt from Magic prompt API alone</button>
+        <button type="submit" name="action" value="generate_magic_prompt_img_nlp" onclick="setButtonVisited('generate_magic_prompt_img_nlp')">Generate Image for Enhanced Prompt with NLP and API</button>
+        <button type="submit" name="action" value="generate_slogan" onclick="setButtonVisited('generate_slogan')">Generate Catchy Slogan</button>
+        <button type="submit" name="action" value="generate_slogan_poster" onclick="setButtonVisited('generate_slogan_poster')">Generate poster with slogan</button>
+        <button type="submit" name="action" value="feed_img_sd" onclick="setButtonVisited('feed_img_sd')">Fetch image from dataset and feed to stable diffusion model</button>
+
+        <button type="submit" name="action" value="check_logical" onclick="setButtonVisited('check_logical')">Check if the given prompt is realistic?</button>
+        <label for="time">Enter Event Time (e.g., 8:00 am):</label>
+        <input type="text" id="time" name="time" placeholder="Optional">
+
+        <label for="environment">Enter the Environment (city, forest, ground, etc.):</label>
+        <input type="text" id="environment" name="environment" placeholder="Optional">
+
+        <label for="prompt">Want to improve the prompt by adding any Additional details?</label>
+        <input type="text" id="additional_details" name="additional_details">
+        <br>
+        <button type="submit" name="action" value="additional_info" onclick="setButtonVisited('additional_info')">Add additional details in prompt</button>
+    </form>
+    {% if error %}
+    <div class="error-message">{{ error }}</div>
+    {% endif %}
+    {% if check_logical %}
+    <h2>Image logically possible?</h2>
+    <p>{{ check_logical }}</p>
+    {% endif %}
+
+    {% if enhanced_prompt %}
+    <h2>NLP Enhanced Prompt:</h2>
+    <p>{{ enhanced_prompt }}</p>
+    {% endif %}
+
+    {% if magic_prompt %}
+    <h2>API Enhanced Prompt:</h2>
+    <p>{{ magic_prompt }}</p>
+    {% endif %}
+
+    {% if magic_prompt_nlp %}
+    <h2>Enhanced Prompt with API alone:</h2>
+    <p>{{ magic_prompt_nlp }}</p>
+    {% endif %}
+
+    {% if enhanced_prompt_nlp_magic %}
+    <h2>Enhanced Prompt with API and NLP:</h2>
+    <p>{{enhanced_prompt_nlp_magic }}</p>
+    {% endif %}
+
+    {% if further_enhanced_prompt %}
+    <h2>Further Enhanced Prompt:</h2>
+    <p>{{ further_enhanced_prompt }}</p>
+    {% endif %}
+
+    
+    {% if images %}
+    <div class="images-container">
+        {% for image in images %}
+        <div class="image-box">
+            <strong>{{ image.title }}</strong><br>
+            <img src="{{ image.image_url }}" alt="{{ image.title }}" style="max-width:200px;"><br>
+        </div>
+        {% endfor %}
+    </div>
+    {% else %}
+    <div class="no-images">
+        <p>No relevant images found.</p>
+    </div>
+    {% endif %}
+    
+    <div class="images-container">
+        {% if generated_image %}
+        <div class="image-box">
+            <h2>Generated Image for User Given Prompt:</h2>
+            <img src="data:image/png;base64,{{ generated_image }}" alt="Generated Image">
+        </div>
+        {% endif %}
+
+        {% if generated_enhanced_image %}
+        <div class="image-box">
+            <h2>Generated Image for Enhanced Prompt:</h2>
+            <img src="data:image/webp;base64,{{ generated_enhanced_image }}" alt="Generated Enhanced Image">
+        </div>
+        {% endif %}
+
+        {% if generated_magic_prompt_image %}
+        <div class="image-box">
+            <h2>Generated Image for Enhanced Prompt with LLM alone:</h2>
+            <img src="data:image/webp;base64,{{ generated_magic_prompt_image }}" alt="Generated Magic Prompt Image">
+        </div>
+        {% endif %}
+
+        {% if generated_magic_prompt_image_nlp %}
+        <div class="image-box">
+            <h2>Generated Image for Enhanced Prompt with NLP and LLM:</h2>
+            <img src="data:image/webp;base64,{{ generated_magic_prompt_image_nlp }}" alt="Generated Magic Prompt Image">
+        </div>
+        {% endif %}
+    </div>
+    {% if generated_poster_image %}
+    <div class="image-box">
+        <h2>Generated Poster:</h2>
+        <img src="data:image/png;base64,{{ generated_poster_image }}" alt="Generated Poster">
+    </div>
+    {% endif %}
+    {% if final_poster_image %}
+    <div class="image-box">
+        <h2>Final Generated Poster:</h2>
+        <img src="data:image/jpeg;base64,{{ final_poster_image }}" alt="Final Generated Poster">
+    </div>
+    {% endif %}
+
+    {% if slogans_data %}
+    <h3>Your Event Slogans for: "{{ prompt }}"</h3> 
+    <div class="table-responsive mt-3">
+            <table class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <th>S.NO</th>
+                        <th>Slogan</th>
+                        <th>Relevance Score</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for item in slogans_data %}
+                        <tr>
+                            <td>{{ loop.index }}</td>
+                            <td>{{ item.slogan }}</td>
+                            <td>{{ "%.3f"|format(item.score) }}</td>
+                            <td>
+                                <form method="POST" action="/generate_slogan_poster">
+                                    <input type="hidden" name="slogan" value="{{ item.slogan }}">
+                                    <input type="hidden" name="prompt" value="{{ prompt }}">
+                                    <button type="submit">Generate poster with slogan {{ loop.index }}</button>
+                                </form>
+                            </td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    {% endif %}
+    
+
+</body>
+</html>

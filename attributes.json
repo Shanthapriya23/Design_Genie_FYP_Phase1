@@ -1,0 +1,141 @@
+{
+    "human": {
+      "positive": [
+        "radiant", "charismatic", "vibrant", "enthusiastic", "joyful", "inspiring", "dynamic", "uplifted", "kind", "thoughtful",
+        "caring", "passionate", "graceful", "confident", "optimistic", "warm", "vivacious", "energetic", "friendly", "compassionate",
+        "courageous", "gentle", "humble", "considerate", "brilliant", "expressive", "loving", "affectionate", "generous", "supportive",
+        "radiant", "genuine", "lively", "balanced", "trustworthy", "admirable", "hopeful", "creative", "spirited", "eager",
+        "brave", "engaging", "pleasant", "inviting", "delightful", "invigorated", "zealous", "fun-loving", "positive", "gracious"
+      ],
+      "negative": [
+        "somber", "troubled", "weary", "angry", "distressed", "depressed", "resentful", "frustrated", "distracted", "unsettled",
+        "anxious", "irritable", "melancholic", "bitter", "overwhelmed", "disheartened", "alienated", "exhausted", "disappointed", "cynical",
+        "resentful", "gloomy", "apathetic", "pessimistic", "tense", "displeased", "unhappy", "defeated", "jaded", "dismayed",
+        "isolated", "vulnerable", "stressed", "angsty", "sorrowful", "embittered", "frustrated", "discontent", "shattered", "unmotivated",
+        "skeptical", "hostile", "unfulfilled", "disconnected", "disturbed", "numb", "uneasy", "alienated", "resentful", "troubled"
+      ],
+      "neutral": [
+        "calm", "focused", "contemplative", "composed", "rational", "steady", "neutral", "reserved", "balanced", "measured",
+        "pragmatic", "even-tempered", "objective", "detached", "analytical", "serene", "detached", "collected", "unemotional", "discreet",
+        "consistent", "methodical", "unbiased", "stable", "dignified", "alert", "understated", "mellow", "unperturbed", "stoic",
+        "prudent", "predictable", "balanced", "steady", "inexpressive", "unruffled", "controlled", "moderate", "unaffected", "calm",
+        "systematic", "observant", "placid", "reflective", "even-tempered", "unflappable", "measured", "stoic", "sober"
+      ]
+    },
+    "animal": {
+      "positive": [
+        "playful", "majestic", "energetic", "curious", "adorable", "gentle", "brave", "noble", "vibrant", "friendly",
+        "graceful", "alert", "loyal", "affectionate", "cuddly", "spirited", "agile", "charming", "dynamic", "cheerful",
+        "elegant", "joyful", "nurturing", "bold", "intelligent", "happy", "vivacious", "fascinating", "mischievous", "companionable",
+        "sociable", "brisk", "playful", "endearing", "responsive", "devoted", "lively", "harmonious", "bright", "amusing",
+        "energetic", "excitable", "vivacious", "faithful", "captivating", "playful", "alert", "dynamic", "animated"
+      ],
+      "negative": [
+        "fierce", "menacing", "agitated", "hostile", "threatening", "territorial", "unpredictable", "aggressive", "irritable", "angry",
+        "intimidating", "scary", "nervous", "savage", "wild", "skittish", "distrustful", "defensive", "volatile", "dangerous",
+        "furious", "aloof", "restless", "withdrawn", "cunning", "difficult", "unapproachable", "turbulent", "spiteful", "troubled",
+        "unsettling", "aggressive", "menacing", "angry", "disturbed", "untrustworthy", "scary", "brash", "distracted", "hostile",
+        "nervous", "stubborn", "cranky", "moody", "irritable", "demanding", "uneasy", "unpredictable", "unsettled", "erratic"
+      ],
+      "neutral": [
+        "alert", "curious", "still", "observant", "steady", "neutral", "calm", "silent", "reserved", "patient",
+        "content", "watchful", "indifferent", "settled", "tranquil", "unconcerned", "passive", "stable", "composed", "relaxed",
+        "quiet", "balanced", "unperturbed", "natural", "grounded", "settled", "unruffled", "steady", "stoic",
+        "unemotional", "even-tempered", "detached", "controlled", "mellow", "discreet", "placid", "unmoved", "unexcited", "methodical",
+        "unremarkable", "steady", "consistent", "unresponsive", "neutral", "moderate", "dignified", "reflective", "peaceful", "stable"
+      ]
+    },
+    "plant": {
+      "positive": [
+        "lush", "blooming", "verdant", "vibrant", "thriving", "flourishing", "healthy", "green", "bountiful", "lush",
+        "radiant", "dynamic", "colorful", "energetic", "prosperous", "luxuriant", "vigorous", "bloomed", "resplendent", "verdant",
+        "elegant", "thriving", "sprouting", "abundant", "plentiful", "nurtured", "enriching", "growing", "fresh", "flourishing",
+        "vigorous", "blooming", "alive", "brilliant", "spreading", "inviting", "pristine", "vibrant", "sturdy", "rejuvenated",
+        "healthy", "fertile", "energetic", "radiant", "beautiful", "vivid", "lush"
+      ],
+      "negative": [
+        "wilting", "thorny", "gnarled", "dead", "decayed", "dried", "barren", "infested", "neglected", "damaged",
+        "withered", "diseased", "stunted", "spindly", "struggling", "shrivelled", "blighted", "rough", "battered", "unhealthy",
+        "brittle", "crumbling", "stale", "brittle", "declining", "scarred", "unruly", "drooping", "dying", "damaged",
+        "frail", "depleted", "brittle", "invasive", "unmanageable", "troubled", "unwell", "dry", "wasted", "broken",
+        "weakened", "decayed", "sparse", "deformed", "neglected", "unhealthy", "dried-up", "bleak", "rotting"
+      ],
+      "neutral": [
+        "swaying", "rooted", "growing", "still", "settled", "unremarkable", "steady", "grounded", "natural", "simple",
+        "unassuming", "functional", "subtle", "undisturbed", "steady", "unvaried", "unchanging", "placid", "consistent", "ordinary",
+        "steady", "unexciting", "uniform", "mellow", "subdued", "calm", "modest", "stable", "natural", "constant",
+        "unremarkable", "steady", "unaffected", "quiet", "plain", "practical", "unchanging", "minimal", "standard", "modest",
+        "neutral", "simple", "consistent", "basic", "reliable", "static", "steady", "balanced", "regular", "dignified"
+      ]
+    },
+    "object": {
+      "positive": [
+        "gleaming", "pristine", "elegant", "shiny", "modern", "refined", "luxurious", "stylish", "sophisticated", "impeccable",
+        "clean", "polished", "beautiful", "flawless", "classy", "neat", "graceful", "well-crafted", "elevated", "brilliant",
+        "innovative", "charming", "exquisite", "fine", "attractive", "sleek", "stunning", "dazzling", "flawless", "gleaming",
+        "pristine", "fancy", "artful", "delicate", "well-designed", "elegant", "refined", "outstanding", "distinctive", "modern",
+        "eye-catching", "polished", "impressive", "appealing", "tasteful", "bright", "striking", "vivid", "elegant", "fine"
+      ],
+      "negative": [
+        "worn", "broken", "tarnished", "rusty", "damaged", "dilapidated", "dirty", "cracked", "scratched", "shabby",
+        "stained", "decrepit", "unpolished", "faded", "unattractive", "cluttered", "faulty", "obsolete", "defective", "dull",
+        "shattered", "worn-out", "rough", "unserviceable", "disheveled", "ragged", "discolored", "dilapidated", "mended", "inferior",
+        "old", "battered", "weathered", "crumbling", "flawed", "dilapidated", "worn", "unappealing", "unsightly", "damaged",
+        "unrefined", "broken", "cracked", "shattered", "worn-out", "stained", "scratched", "unsightly", "faded", "aged",
+        "deteriorated", "dilapidated", "degraded", "worn", "tarnished"
+      ],
+      "neutral": [
+        "functional", "ordinary", "sturdy", "basic", "reliable", "practical", "simple", "standard", "unremarkable", "useful",
+        "standard", "unadorned", "generic", "practical", "workmanlike", "serviceable", "plain", "unexceptional", "adequate", "stable",
+        "unembellished", "utilitarian", "basic", "solid", "steady", "no-frills", "neutral", "dependable", "efficient", "regular",
+        "unpretentious", "modest", "familiar", "consistent", "functional", "average", "unadorned", "minimal", "basic", "simple",
+        "standard", "typical", "conventional", "practical", "neutral", "steady", "stable", "unadorned", "regular", "functional"
+      ]
+    },
+    "concept": {
+      "positive": [
+        "inspiring", "revolutionary", "harmonious", "innovative", "enlightening", "transformative", "empowering", "uplifting", "exciting", "motivating",
+        "groundbreaking", "positive", "refreshing", "constructive", "dynamic", "ambitious", "beneficial", "engaging", "brilliant", "insightful",
+        "progressive", "refreshing", "stimulating", "thought-provoking", "profound", "forward-thinking", "optimistic", "creative", "visionary", "invigorating",
+        "refreshing", "impactful", "influential", "enriching", "innovative", "inspirational", "meaningful", "motivational", "beneficial", "captivating",
+        "extraordinary", "idealistic", "enlightened", "progressive", "elevating", "stimulating", "positive", "nurturing", "creative", "rejuvenating"
+      ],
+      "negative": [
+        "controversial", "challenging", "divisive", "complex", "problematic", "confrontational", "difficult", "disruptive", "unsettling", "polarizing",
+        "doubtful", "unconventional", "disruptive", "contentious", "controversial", "troublesome", "conflicting", "disagreeable", "objectionable", "turbulent",
+        "debatable", "difficult", "tricky", "disheartening", "problematic", "complex", "unsettling", "challenging", "disputed", "disputed",
+        "divisive", "unsettling", "troubled", "unreliable", "displeasing", "oppositional", "troublesome", "controversial", "ambiguous", "difficult",
+        "doubtful", "discrepant", "problematic", "objectionable", "confrontational", "unsettling", "conflicted", "divisive", "troubled", "disruptive"
+      ],
+      "neutral": [
+        "abstract", "theoretical", "complex", "conceptual", "pragmatic", "fundamental", "philosophical", "hypothetical", "unconventional", "indifferent",
+        "rational", "logical", "nontraditional", "unremarkable", "detached", "unassuming", "unembellished", "standard", "neutral", "normative",
+        "pragmatic", "systematic", "logical", "methodical", "theoretical", "typical", "standard", "basic", "ordinary", "regular",
+        "unbiased", "uninspired", "neutral", "objective", "commonplace", "expected", "routine", "conventional", "systematic", "neutral",
+        "unremarkable", "mundane", "formal", "plain", "traditional", "unassuming", "average", "standard", "typical", "conventional"
+      ]
+    },
+    "place": {
+      "positive": [
+        "picturesque", "inviting", "serene", "charming", "beautiful", "tranquil", "welcoming", "peaceful", "breathtaking", "idyllic",
+        "cozy", "pleasant", "stunning", "elegant", "refreshing", "captivating", "enchanting", "scenic", "relaxing", "soothing",
+        "picturesque", "warm", "alluring", "charming", "appealing", "calming", "splendid", "attractive", "captivating", "serene",
+        "wonderful", "pleasant", "quaint", "inviting", "tranquil", "breathtaking", "beautiful", "harmonious", "cozy", "enchanting",
+        "enjoyable", "restful", "picturesque", "welcoming", "relaxing", "refreshing", "stunning", "soothing", "lovely", "peaceful"
+      ],
+      "negative": [
+        "desolate", "foreboding", "chaotic", "bleak", "dreary", "isolated", "neglected", "gloomy", "harsh", "unwelcoming",
+        "hostile", "unpleasant", "abandoned", "dark", "shattered", "depressing", "rough", "grim", "uninviting", "dismal",
+        "shabby", "troubled", "intimidating", "dangerous", "overwhelming", "harsh", "desolate", "forlorn", "derelict", "disturbing",
+        "unsettling", "dark", "barren", "hostile", "harsh", "dismal", "uninviting", "chaotic", "depressing", "neglected",
+        "dreary", "disturbing", "abandoned", "despairing", "unfriendly", "rough", "bleak", "unsettling", "dreary", "forlorn"
+      ],
+      "neutral": [
+        "vast", "remote", "diverse", "ordinary", "common", "standard", "neutral", "typical", "simple", "plain",
+        "modest", "average", "routine", "unremarkable", "basic", "unassuming", "unexciting", "general", "average", "regular",
+        "traditional", "standard", "commonplace", "typical", "familiar", "regular", "usual", "unassuming", "standard", "typical",
+        "generic", "regular", "neutral", "simple", "plain", "standard", "typical", "ordinary", "average", "standard",
+        "neutral", "common", "plain", "basic", "neutral", "average", "typical", "routine", "ordinary", "common"
+      ]
+    }
+  }

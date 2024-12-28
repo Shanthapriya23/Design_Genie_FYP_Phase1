@@ -1,0 +1,32 @@
+{
+    "positive": [
+      "clear skies", "gentle sunlight", "soft breeze", "rainbow", "bright sunshine", "pleasant warmth", "clear horizon", "warm rays", "crisp air", "beautiful day",
+      "sunny", "mellow light", "blue sky", "radiant sunshine", "refreshing breeze", "sunlit", "mild warmth", "happy clouds", "calm weather", "golden hour",
+      "inviting light", "sparkling sky", "gentle warmth", "serene day", "tranquil sunshine", "clear air", "lovely day", "mellow sunshine", "bright light", "soothing breeze",
+      "lovely weather", "bright blue sky", "pleasant sunshine", "gentle breeze", "inviting skies", "peaceful light", "soft sunlight", "clear atmosphere", "radiant day", "invigorating light",
+      "warm sunlight", "cheerful sky", "pleasant warmth", "joyful weather", "relaxing sunlight", "gentle day", "bright sunshine", "calm sky", "bright weather", "crisp sunlight",
+      "warm rays", "serene skies", "gentle day", "clear and sunny", "crisp and fresh", "refreshing warmth", "sunny disposition", "bright daylight", "pleasant rays", "tranquil weather",
+      "sunny intervals", "inviting sunshine", "clear weather", "pleasantly sunny", "bright and clear", "warm and sunny", "beautiful sunshine", "gentle warmth", "clear and crisp", "radiant weather",
+      "soothing sunlight", "bright and inviting", "refreshing daylight", "calm and sunny", "gentle and warm", "inviting warmth", "sunny weather", "cheerful sunlight", "bright and pleasant", "radiant daylight"
+    ],
+    "negative": [
+      "stormy clouds", "heavy rain", "thick fog", "harsh winds", "torrential downpour", "dark storm", "blustery weather", "gloomy sky", "driving rain", "howling wind",
+      "flooding rain", "overcast sky", "chilly rain", "turbulent weather", "cloudy gloom", "strong gusts", "stormy weather", "dreary clouds", "heavy fog", "stormy gusts",
+      "rain-soaked", "cold winds", "heavy precipitation", "tempestuous weather", "storm clouds", "windy conditions", "foggy day", "stormy winds", "dismal rain", "harsh rain",
+      "oppressive weather", "rainy gloom", "stormy skies", "torrential winds", "dark fog", "heavy gusts", "blustering winds", "unsettled skies", "rainy gloom", "wind-swept",
+      "rain-drenched", "storm-ridden", "unpleasant weather", "dreary fog", "heavy downpour", "stormy atmosphere", "blustery rain", "gloomy weather", "windy gusts", "harsh storm",
+      "fierce rain", "stormy conditions", "rough weather", "dark rain", "heavy clouds", "raging storm", "turbulent skies", "gloomy mist", "intense rain", "wind-driven rain",
+      "stormy air", "heavy weather", "bitter rain", "blustery storm", "dark and dreary", "harsh precipitation", "cloudy and bleak", "rough conditions", "storm-laden skies", "heavy downpour",
+      "gloomy and wet", "storm-filled", "intense storm", "dark and stormy", "flooded conditions", "severe rain", "unsettled weather", "storm and rain", "dreary conditions", "storm-chilled"
+    ],
+    "neutral": [
+      "partly cloudy", "mild temperature", "light mist", "calm air", "overcast", "cool breeze", "steady weather", "cloudy intervals", "gentle mist", "average temperature",
+      "mostly clear", "light clouds", "moderate wind", "calm day", "steady breeze", "unremarkable weather", "mild day", "neutral skies", "soft clouds", "consistent weather",
+      "pleasantly cool", "steady climate", "gentle air", "mild wind", "partly sunny", "slight mist", "consistent breeze", "cloudy patches", "normal weather", "steady air",
+      "moderate temperature", "calm conditions", "usual weather", "mild air", "standard weather", "unremarkable skies", "soft breeze", "steady light", "average day", "balanced weather",
+      "neutral temperature", "standard conditions", "light cloud cover", "cool conditions", "routine weather", "unexciting skies", "calm skies", "ordinary weather", "steady mist", "unassuming day",
+      "typical climate", "regular conditions", "subdued weather", "calm atmosphere", "lightly cloudy", "ordinary skies", "standard day", "mild conditions", "neutral air", "predictable weather",
+      "standard light", "moderate breeze", "regular weather", "typical skies", "steady climate", "neutral conditions", "average skies", "routine conditions", "steady climate", "plain weather",
+      "unremarkable day", "mild skies", "typical conditions", "plain skies", "normal day", "standard air", "typical weather", "steady atmosphere", "basic weather", "unremarkable day"
+    ]
+  }

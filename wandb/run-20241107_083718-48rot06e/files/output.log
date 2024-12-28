@@ -1,0 +1,94 @@
+ * Debugger is active!
+ * Debugger PIN: 383-596-437
+127.0.0.1 - - [07/Nov/2024 08:40:21] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2024 08:40:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+time:
+environment:
+E:\FYP_review2_ref\FYP_review2\project_root\prompt_enhancement.py:132: UserWarning: [W007] The model you're using has no word vectors loaded, so the result of the Token.similarity method will be based on the tagger, parser and NER, which may not give useful similarity judgements. This may happen if you're using one of the small models, e.g. `en_core_web_sm`, which don't ship with word vectors and only use context-sensitive tensors. You can always add your own word vectors, or use one of the larger models instead if available.
+  similarity = token.similarity(word_doc)
+127.0.0.1 - - [07/Nov/2024 08:40:49] "GET / HTTP/1.1" 200 -
+scene:  sunny afternoon with soft sunlight in a a generic location.
+Available keys: dict_keys(['positive', 'negative', 'neutral'])
+127.0.0.1 - - [07/Nov/2024 08:40:52] "POST / HTTP/1.1" 200 -
+Attempt 1: Model loading, waiting 20.413684844970703 seconds.
+Generated Magic Prompt: diwali
+127.0.0.1 - - [07/Nov/2024 08:41:31] "POST / HTTP/1.1" 200 -
+
+time:
+environment:
+E:\FYP_review2_ref\FYP_review2\project_root\prompt_enhancement.py:80: UserWarning: [W007] The model you're using has no word vectors loaded, so the result of the Doc.similarity method will be based on the tagger, parser and NER, which may not give useful similarity judgements. This may happen if you're using one of the small models, e.g. `en_core_web_sm`, which don't ship with word vectors and only use context-sensitive tensors. You can always add your own word vectors, or use one of the larger models instead if available.
+  similarity = entity_doc.similarity(word_doc)
+scene:  sunny afternoon with lovely weather in a a generic location.
+Available keys: dict_keys(['positive', 'negative', 'neutral'])
+127.0.0.1 - - [07/Nov/2024 12:09:59] "POST / HTTP/1.1" 200 -
+Attempt 1: Model loading, waiting 20.413684844970703 seconds.
+Attempt 2: Model loading, waiting 5 seconds.
+Generated Magic Prompt: graduation ceremony by edwin austin arrivabene and greg rutkowski and james gurney, trending on artstation
+127.0.0.1 - - [07/Nov/2024 12:13:07] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2024 14:45:24] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2024 14:45:51] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2024 14:47:25] "POST /generate_slogan_poster HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2024 14:48:26] "[31m[1mGET /generate_slogan_poster HTTP/1.1[0m" 405 -
+127.0.0.1 - - [07/Nov/2024 14:48:30] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2024 14:49:24] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2024 14:50:49] "POST /generate_slogan_poster HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2024 14:56:32] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2024 15:11:00] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2024 15:12:28] "POST / HTTP/1.1" 200 -
+
+time:
+environment:
+E:\FYP_review2_ref\FYP_review2\project_root\prompt_enhancement.py:80: UserWarning: [W007] The model you're using has no word vectors loaded, so the result of the Doc.similarity method will be based on the tagger, parser and NER, which may not give useful similarity judgements. This may happen if you're using one of the small models, e.g. `en_core_web_sm`, which don't ship with word vectors and only use context-sensitive tensors. You can always add your own word vectors, or use one of the larger models instead if available.
+  similarity = entity_doc.similarity(word_doc)
+E:\FYP_review2_ref\FYP_review2\project_root\prompt_enhancement.py:132: UserWarning: [W007] The model you're using has no word vectors loaded, so the result of the Token.similarity method will be based on the tagger, parser and NER, which may not give useful similarity judgements. This may happen if you're using one of the small models, e.g. `en_core_web_sm`, which don't ship with word vectors and only use context-sensitive tensors. You can always add your own word vectors, or use one of the larger models instead if available.
+  similarity = token.similarity(word_doc)
+127.0.0.1 - - [07/Nov/2024 15:12:57] "GET / HTTP/1.1" 200 -
+scene:  sunny afternoon with tranquil weather in a a generic location.
+Available keys: dict_keys(['positive', 'negative', 'neutral'])
+Generating image for enhanced prompt: basketball tournament. Create an image of Include elements that evoke feelings of stylish in basketball. and Include elements that evoke feelings of fine, modern, fine in tournament. sunny afternoon with tranquil weather in a a generic location. Use a color palette of creamy white, sea green, lemon. sunny afternoon with tranquil weather in a a generic location..The overall mood should be positive. Render the image in a digital art style.
+127.0.0.1 - - [07/Nov/2024 15:13:27] "POST / HTTP/1.1" 200 -
+Attempt 1: Model loading, waiting 20.413684844970703 seconds.
+Generated Magic Prompt: basketball tournament. professional digital art, best on artstation, cgsociety, wlop, Behance, pixiv, astonishing, impressive, outstanding, epic, cinematic, stunning, gorgeous, breathtaking fantasy art, masterpiece.
+127.0.0.1 - - [07/Nov/2024 15:15:18] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2024 15:16:01] "GET / HTTP/1.1" 200 -
+
+time:
+environment: basketball ground
+scene:  sunny afternoon with clear air in a visionary basketball ground.
+Available keys: dict_keys(['positive', 'negative', 'neutral'])
+Generating further enhanced prompt: basketball tournament with many players in jersey. Create an image of Include elements that evoke feelings of stylish, flawless, flawless in jersey. sunny afternoon with clear air in a visionary basketball ground. Use a color palette of sky violet, tangerine, pearl white. sunny afternoon with clear air in a visionary basketball ground..The overall mood should be positive. Render the image in a oil painting style.
+127.0.0.1 - - [07/Nov/2024 15:18:59] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2024 15:21:07] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2024 15:21:25] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2024 15:21:32] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2024 15:22:02] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2024 15:22:10] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2024 15:22:18] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2024 15:22:30] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2024 15:23:27] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2024 15:25:54] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2024 15:26:23] "POST /generate_slogan_poster HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2024 15:29:41] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2024 15:38:53] "POST / HTTP/1.1" 200 -
+time:
+environment:
+E:\FYP_review2_ref\FYP_review2\project_root\prompt_enhancement.py:80: UserWarning: [W007] The model you're using has no word vectors loaded, so the result of the Doc.similarity method will be based on the tagger, parser and NER, which may not give useful similarity judgements. This may happen if you're using one of the small models, e.g. `en_core_web_sm`, which don't ship with word vectors and only use context-sensitive tensors. You can always add your own word vectors, or use one of the larger models instead if available.
+  similarity = entity_doc.similarity(word_doc)
+E:\FYP_review2_ref\FYP_review2\project_root\prompt_enhancement.py:132: UserWarning: [W007] The model you're using has no word vectors loaded, so the result of the Token.similarity method will be based on the tagger, parser and NER, which may not give useful similarity judgements. This may happen if you're using one of the small models, e.g. `en_core_web_sm`, which don't ship with word vectors and only use context-sensitive tensors. You can always add your own word vectors, or use one of the larger models instead if available.
+  similarity = token.similarity(word_doc)
+scene:  sunny afternoon with invigorating light in a a generic location.
+Available keys: dict_keys(['positive', 'negative', 'neutral'])
+Generating further enhanced prompt: technical hackathon exciting internship. Create an image of Include elements that evoke feelings of quaint in internship. sunny afternoon with invigorating light in a a generic location. Use a color palette of peach, yellow-green, sea green. sunny afternoon with invigorating light in a a generic location..The overall mood should be positive. Render the image in a impressionistic style.
+127.0.0.1 - - [07/Nov/2024 15:41:44] "POST / HTTP/1.1" 200 -
+time:
+environment:
+scene:  sunny afternoon with warm sunlight in a a generic location.
+Available keys: dict_keys(['positive', 'negative', 'neutral'])
+Generating further enhanced prompt: technology innovation . Create an image of Include elements that evoke feelings of motivational, motivating, visionary in technology. and Include elements that evoke feelings of motivating, motivational, visionary in innovation. sunny afternoon with warm sunlight in a a generic location. Use a color palette of cobalt blue, sea blue, tropical blue. sunny afternoon with warm sunlight in a a generic location..The overall mood should be positive. Render the image in a impressionistic style.
+time:
+environment:
+scene:  sunny afternoon with gentle day in a a generic location.
+Available keys: dict_keys(['positive', 'negative', 'neutral'])
+Generating further enhanced prompt: technology innovation . Create an image of Include elements that evoke feelings of motivational, motivating, visionary in technology. and Include elements that evoke feelings of motivational, visionary, motivating in innovation. sunny afternoon with gentle day in a a generic location. Use a color palette of sea green, bright turquoise, pastel pink. sunny afternoon with gentle day in a a generic location..The overall mood should be positive. Render the image in a abstract style.
+127.0.0.1 - - [07/Nov/2024 15:44:18] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2024 15:56:30] "[35m[1mPOST / HTTP/1.1[0m" 500 -

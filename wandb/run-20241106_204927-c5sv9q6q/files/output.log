@@ -1,0 +1,32 @@
+ * Debugger is active!
+ * Debugger PIN: 383-596-437
+127.0.0.1 - - [06/Nov/2024 20:49:29] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Nov/2024 20:49:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [06/Nov/2024 20:50:33] "POST / HTTP/1.1" 200 -
+time:
+environment:
+E:\FYP_review2_ref\FYP_review2\project_root\prompt_enhancement.py:80: UserWarning: [W007] The model you're using has no word vectors loaded, so the result of the Doc.similarity method will be based on the tagger, parser and NER, which may not give useful similarity judgements. This may happen if you're using one of the small models, e.g. `en_core_web_sm`, which don't ship with word vectors and only use context-sensitive tensors. You can always add your own word vectors, or use one of the larger models instead if available.
+  similarity = entity_doc.similarity(word_doc)
+E:\FYP_review2_ref\FYP_review2\project_root\prompt_enhancement.py:132: UserWarning: [W007] The model you're using has no word vectors loaded, so the result of the Token.similarity method will be based on the tagger, parser and NER, which may not give useful similarity judgements. This may happen if you're using one of the small models, e.g. `en_core_web_sm`, which don't ship with word vectors and only use context-sensitive tensors. You can always add your own word vectors, or use one of the larger models instead if available.
+  similarity = token.similarity(word_doc)
+scene:  sunny afternoon with rainbow in a a generic location.
+Available keys: dict_keys(['positive', 'negative', 'neutral'])
+Generating image for enhanced prompt: graduation ceremony. Create an image of Include elements that evoke feelings of pleasant, pleasant, quaint in graduation. and Include elements that evoke feelings of pleasant, pleasant, quaint in ceremony. sunny afternoon with rainbow in a a generic location. Use a color palette of blush pink, pale peach, emerald green. sunny afternoon with rainbow in a a generic location..The overall mood should be positive. Render the image in a photorealistic style.
+127.0.0.1 - - [06/Nov/2024 20:53:57] "POST / HTTP/1.1" 200 -
+Generated Magic Prompt: birthday party, realistic, beautiful, fantasy art, dungeons and dragons, lord of the rings, in the style of rebecca guay and thomas kinkade, illustration, very cozy, fantasy, intricate, hyper detailed, artstation, concept art, smooth, sharp focus, ray tracing, vibrant
+127.0.0.1 - - [06/Nov/2024 22:00:11] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Nov/2024 22:01:39] "GET / HTTP/1.1" 200 -
+
+time:
+environment:
+Generated Magic Prompt: birthday party, realistic, beautiful, fantasy art, dungeons and dragons, lord of the rings, in the style of rebecca guay and thomas kinkade, illustration, very cozy, fantasy, intricate, hyper detailed, artstation, concept art, smooth, sharp focus, ray tracing, vibrant
+127.0.0.1 - - [06/Nov/2024 22:02:03] "POST / HTTP/1.1" 200 -
+
+time:
+environment:
+scene:  sunny afternoon with gentle breeze in a a generic location.
+Available keys: dict_keys(['positive', 'negative', 'neutral'])
+127.0.0.1 - - [06/Nov/2024 22:02:36] "POST / HTTP/1.1" 200 -
+scene:  sunny afternoon with gentle day in a a generic location.
+Available keys: dict_keys(['positive', 'negative', 'neutral'])
+127.0.0.1 - - [06/Nov/2024 22:02:48] "POST / HTTP/1.1" 200 -

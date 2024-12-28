@@ -1,0 +1,10 @@
+{"time":"2024-11-06T20:48:50.4908277+05:30","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-11-06T20:48:50.4913415+05:30","level":"INFO","msg":"created symlink","path":"E:\\FYP_review2_ref\\FYP_review2\\project_root\\wandb\\run-20241106_204850-ibfiptav\\logs\\debug-core.log"}
+{"time":"2024-11-06T20:48:51.7640809+05:30","level":"INFO","msg":"created new stream","id":"ibfiptav"}
+{"time":"2024-11-06T20:48:51.7640809+05:30","level":"INFO","msg":"stream: started","id":"ibfiptav"}
+{"time":"2024-11-06T20:48:51.7640809+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"ibfiptav"}}
+{"time":"2024-11-06T20:48:51.7640809+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"ibfiptav"}}
+{"time":"2024-11-06T20:48:51.7657427+05:30","level":"INFO","msg":"sender: started","stream_id":"ibfiptav"}
+{"time":"2024-11-06T20:48:52.2416736+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-06T23:44:17.7284332+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 10.10.100.94:65179->35.186.228.49:443: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond."}
+{"time":"2024-11-06T23:46:13.7156415+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}

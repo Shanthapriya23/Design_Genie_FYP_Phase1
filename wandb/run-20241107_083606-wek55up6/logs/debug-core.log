@@ -1,0 +1,10 @@
+{"time":"2024-11-07T08:36:05.3700729+05:30","level":"INFO","msg":"started logging, with flags","port-filename":"C:\\Users\\PRIYA\\AppData\\Local\\Temp\\tmpk1jmbigq\\port-20080.txt","pid":20080,"debug":false,"disable-analytics":false}
+{"time":"2024-11-07T08:36:05.3705514+05:30","level":"INFO","msg":"FeatureState","shutdownOnParentExitEnabled":false}
+{"time":"2024-11-07T08:36:05.3726481+05:30","level":"INFO","msg":"Will exit if parent process dies.","ppid":20080}
+{"time":"2024-11-07T08:36:05.3726481+05:30","level":"INFO","msg":"server is running","addr":{"IP":"127.0.0.1","Port":63977,"Zone":""}}
+{"time":"2024-11-07T08:36:05.534481+05:30","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"127.0.0.1:63978"}
+{"time":"2024-11-07T08:36:07.0054349+05:30","level":"INFO","msg":"handleInformInit: received","streamId":"wek55up6","id":"127.0.0.1:63978"}
+{"time":"2024-11-07T08:36:07.971359+05:30","level":"INFO","msg":"handleInformInit: stream started","streamId":"wek55up6","id":"127.0.0.1:63978"}
+{"time":"2024-11-07T08:37:17.5754071+05:30","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"127.0.0.1:64046"}
+{"time":"2024-11-07T08:37:18.8020256+05:30","level":"INFO","msg":"handleInformInit: received","streamId":"48rot06e","id":"127.0.0.1:64046"}
+{"time":"2024-11-07T08:37:19.3746905+05:30","level":"INFO","msg":"handleInformInit: stream started","streamId":"48rot06e","id":"127.0.0.1:64046"}

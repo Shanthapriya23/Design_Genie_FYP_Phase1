@@ -1,0 +1,48 @@
+{
+    "palettes": {
+      "positive": [
+        "vibrant yellow", "soft blue", "lush green", "warm orange", "gentle pink", "sky blue", 
+        "golden sunlight", "emerald green", "coral red", "bright turquoise", "peach", "sunset orange", 
+        "lime green", "baby blue", "light pink", "aquamarine", "sunshine yellow", "fresh mint", 
+        "rosy red", "seafoam green", "daisy yellow", "light lavender", "pale teal", "candy pink", 
+        "blush", "kiwi green", "periwinkle", "apricot", "powder blue", "melon", "turquoise blue", 
+        "mango yellow", "sky grey", "moss green", "pastel pink", "butter yellow", "lavender blue", 
+        "limeade", "watermelon", "pearl white", "cobalt blue", "lime sherbet", "tangerine", "mint green", 
+        "sunny yellow", "pale peach", "blueberry", "soft mint", "cherry red", "turquoise green", 
+        "canary yellow", "light jade", "blush pink", "yellow-green", "baby mint", "light apricot", 
+        "celeste", "lemon", "sea blue", "orange sherbet", "pale aqua", "soft coral", "chartreuse", 
+        "powder pink", "sky turquoise", "soft lavender", "peachy keen", "apple green", "sky violet", 
+        "peach blossom", "light lemon", "creamy white", "sea green", "sunset pink", "cornflower blue", 
+        "champagne", "orchid", "soft gold", "fresh rose", "soft green", "tropical blue"
+      ],
+      "negative": [
+        "deep purple", "stormy grey", "midnight blue", "blood red", "charcoal black", "murky brown", 
+        "ashen grey", "dark crimson", "shadowy green", "dark navy", "gunmetal grey", "rusty red", 
+        "coal black", "dull olive", "dark slate", "faded purple", "burnt sienna", "dusty rose", 
+        "dark mahogany", "dark teal", "steel grey", "sanguine", "cinder", "muddy brown", 
+        "dark auburn", "spiced wine", "shadow black", "brownish grey", "dark moss", "mud brown", 
+        "storm grey", "dull navy", "ashen brown", "charcoal grey", "dark ash", "faded indigo", 
+        "burnt umber", "sombre green", "dark stone", "dull maroon", "deep grey", "earth brown", 
+        "blood orange", "deep ochre", "dark sepia", "old copper", "blackened blue", "faded brick", 
+        "smoky taupe", "dark brownish green", "dull burgundy", "steel blue", "dark taupe", 
+        "faded grey", "storm cloud", "dark grape", "burnt olive", "blackened grey", "dark walnut", 
+        "moss brown", "smoky black", "faded charcoal", "dark sepia", "deep burgundy", "storm blue", 
+        "muddy grey", "dark rust", "dusky green", "deep brown", "dull dark green", "blackish brown", 
+        "dark cobalt", "greyish blue", "stale crimson", "blackened green", "deep granite", "dull plum"
+      ],
+      "neutral": [
+        "earthy brown", "slate grey", "muted green", "pastel beige", "soft lavender", "pale yellow", 
+        "misty white", "cool grey", "faded blue", "beige", "taupe", "soft grey", "dusty rose", 
+        "sand", "light grey", "cream", "pearl", "silver", "ivory", "stone grey", "warm taupe", 
+        "charcoal", "fog grey", "blush beige", "smoky beige", "light olive", "neutral brown", 
+        "soft tan", "dove grey", "cream white", "pale taupe", "ashy blue", "cocoa", "muted lavender", 
+        "smoke", "pale gray", "beige grey", "dust grey", "sandstone", "light khaki", "creamy beige", 
+        "smoky taupe", "cloud grey", "cool beige", "stone", "frosted white", "driftwood", 
+        "sage green", "warm sand", "soft charcoal", "dusty blue", "pale taupe", "greige", 
+        "stonewash", "mushroom", "light cocoa", "soft oatmeal", "neutral grey", "gentle beige", 
+        "dusty khaki", "silver grey", "beige pink", "soft mushroom", "cool beige", "cream grey", 
+        "washed out blue", "stone taupe", "pale olive", "light mushroom", "misty grey", 
+        "faded taupe", "pale sandstone", "silvery grey", "dusty peach", "soft beige", "mud grey"
+      ]
+    }
+  }

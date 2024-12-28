@@ -1,0 +1,27 @@
+{
+    "atmosphere_elements": [
+      "in a bustling city", "in a tranquil forest", "by a serene lake", "on a mountain peak", "in a cozy home",
+      "in a vibrant marketplace", "in a quiet village", "on a sandy beach", "in a dense jungle", "by a rushing river", "in a historical castle",
+      "in a modern apartment", "in a snowy landscape", "by a picturesque waterfall", "in a busy train station", "on a lush vineyard", "in a bustling café",
+      "on a remote island", "in a serene meadow", "in a lively festival", "on a scenic overlook", "in a charming countryside", "by a crystal-clear pond",
+      "in a quaint bookstore", "in a busy airport", "on a foggy hill", "in a traditional village", "by a peaceful riverbank", "in a luxurious resort",
+      "in a quaint café", "on a misty morning", "in a vibrant park", "by an ancient ruin", "in a bustling market", "on a picturesque bridge",
+      "in a lush garden", "by a quiet stream", "in a sunny orchard", "on a hilltop retreat", "in a lively street", "by a tranquil bay",
+      "in a historic town", "on a starry night", "in a busy square", "by a serene bayou", "in a scenic vineyard", "on a colorful street",
+      "in a charming café", "by a majestic canyon", "in a cozy cabin", "on a breezy coastline", "in a tranquil sanctuary", "by a shimmering lagoon",
+      "in a cultural festival", "on a rugged coastline", "in a lush tropical forest", "by a peaceful meadow", "in a cozy library", "on a snow-capped peak",
+      "in a rustic barn", "by a quiet pond", "in a bustling downtown", "on a serene plateau", "in a vibrant garden", "by a scenic river",
+      "in a charming lodge", "on a remote mountaintop", "in a lively plaza", "by a picturesque beach", "in a serene park", "on a tranquil lake",
+      "in a spacious warehouse", "on a busy street corner", "in a bustling shopping mall", "by a peaceful garden", "in a quaint town square", "on a serene riverbank",
+      "in a lively concert hall", "by a charming waterfront", "in a stylish restaurant", "on a sunlit patio", "in a lively pub", "by a rustic farmhouse",
+      "in a busy office", "on a peaceful trail", "in a cozy apartment", "by a majestic lake", "in a vibrant city park", "on a scenic highway",
+      "in a bustling port", "by a serene village pond", "in a lively theater", "on a tranquil country road", "in a chic boutique", "by a scenic overlook",
+      "in a playground", "by the sea", "on the ocean shore", "in a coastal town", "on an island beach", "in a seaside village", "on a boardwalk", 
+      "by the oceanfront", "in a marine park", "on a sandy shoreline", "by a harbor", "in a salt marsh", "on a cliffside", "by a tidal pool", 
+      "in an oceanic resort", "on a beachfront", "by a coral reef", "in a coastal cabin", "on a seaside pier", "by a lighthouse", "in a beachside café", 
+      "by a coastal marsh", "on an ocean-view terrace", "in a seaside campground", "by an estuary", "on a tropical beach", "in a beach hut", 
+      "by a surf spot", "in a nautical harbor", "on a coastal path", "by a sea cliff", "in an ocean-view restaurant", "on a marine observatory", 
+      "by a sandy dune", "in a beachside park", "on a coastal boardwalk", "by a sea bay", "in a waterfront hotel", "on a tide pool", 
+      "by a marine reserve", "in a beachfront villa", "on a coastal lookout", "by an ocean lagoon", "in a beachside market", "on an island resort"
+    ]
+  }
